@@ -69,7 +69,7 @@ export default function FeatureShowcase() {
     setActive((prev) => (prev < features.length - 1 ? prev + 1 : 0));
 
   return (
-    <section ref={sectionRef} className="relative h-[100vh] mt-5">
+    <section ref={sectionRef} className="relative bg-gray-50">
       {/* Parent wrapper gives enough scroll height */}
       <div className="h-[500vh] relative">
         {/* Sticky showcase inside */}
